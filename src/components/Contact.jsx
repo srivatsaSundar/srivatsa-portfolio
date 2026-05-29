@@ -35,33 +35,26 @@ const Contact = () => {
                     </motion.div>
 
                     <motion.div
-                        initial={{ opacity: 0 }}
-                        whileInView={{ opacity: 1 }}
+                        initial={{ opacity: 0, x: 30 }}
+                        whileInView={{ opacity: 1, x: 0 }}
                         viewport={{ once: true }}
-                        transition={{ delay: 0.4, duration: 1 }}
-                        className="relative"
+                        transition={{ delay: 0.4, duration: 0.8 }}
+                        className="flex flex-col justify-center items-start lg:items-end lg:text-right border-t lg:border-t-0 lg:border-l border-white/5 pt-12 lg:pt-0 lg:pl-12 gap-8"
                     >
-                        <form className="space-y-12" onSubmit={(e) => e.preventDefault()}>
-                            <div className="space-y-2 border-b border-white/10 pb-4 focus-within:border-white transition-colors">
-                                <label className="text-[10px] uppercase tracking-widest text-white/20 font-bold">Identifer</label>
-                                <input type="text" placeholder="Your Name" className="w-full bg-transparent text-white text-2xl focus:outline-none placeholder:text-white/10 italic" />
-                            </div>
-
-                            <div className="space-y-2 border-b border-white/10 pb-4 focus-within:border-white transition-colors">
-                                <label className="text-[10px] uppercase tracking-widest text-white/20 font-bold">Response Endpoint</label>
-                                <input type="email" placeholder="email@address.com" className="w-full bg-transparent text-white text-2xl focus:outline-none placeholder:text-white/10 italic" />
-                            </div>
-
-                            <div className="space-y-2 border-b border-white/10 pb-4 focus-within:border-white transition-colors">
-                                <label className="text-[10px] uppercase tracking-widest text-white/20 font-bold">Query Payload</label>
-                                <textarea rows="2" placeholder="Tell me about your mission..." className="w-full bg-transparent text-white text-2xl focus:outline-none placeholder:text-white/10 italic resize-none"></textarea>
-                            </div>
-
-                            <button className="text-white font-bold uppercase text-xs tracking-[0.5em] hover:italic flex items-center gap-4 group">
-                                [ Execute Message ]
-                                <div className="w-12 h-[1px] bg-white/20 group-hover:w-24 group-hover:bg-white transition-all"></div>
-                            </button>
-                        </form>
+                        <span className="text-white/20 uppercase tracking-[0.5em] text-[10px]">Curriculum Vitae</span>
+                        <h3 className="text-4xl md:text-5xl font-bold text-white tracking-tighter">
+                            Looking for the <br /> <span className="italic text-white/40">Full Profile?</span>
+                        </h3>
+                        <p className="text-white/40 text-sm max-w-sm leading-relaxed">
+                            Download the comprehensive, print-ready PDF resume documenting all my enterprise projects, technical skills, and academic achievements.
+                        </p>
+                        <a 
+                            href="/Srivatsa_Sundarraj_Resume.pdf" 
+                            download="Srivatsa_Sundarraj_Resume.pdf"
+                            className="px-10 py-5 bg-white text-black font-bold uppercase text-[10px] tracking-[0.3em] rounded-none hover:bg-neutral-200 transition-all active:scale-95 inline-flex items-center gap-4"
+                        >
+                            [ Download Resume ]
+                        </a>
                     </motion.div>
                 </div>
 

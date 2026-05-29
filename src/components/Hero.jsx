@@ -134,13 +134,20 @@ const Hero = () => {
                             initial={{ opacity: 0, scale: 0.8 }}
                             animate={{ opacity: 1, scale: 1 }}
                             transition={{ delay: 1, duration: 0.8 }}
-                            className="flex flex-col gap-4"
+                            className="flex flex-col gap-3"
                         >
                             <a href="#projects" className="px-10 py-4 bg-white text-black font-bold uppercase text-[10px] tracking-widest rounded-none hover:bg-neutral-200 transition-all active:scale-95 inline-block text-center">
                                 Explore Work
                             </a>
                             <a href="#contact" className="px-10 py-4 border border-white/20 text-white font-bold uppercase text-[10px] tracking-widest rounded-none hover:bg-white hover:text-black transition-all active:scale-95 inline-block text-center">
                                 Get in Touch
+                            </a>
+                            <a 
+                                href="/Srivatsa_Sundarraj_Resume.pdf" 
+                                download="Srivatsa_Sundarraj_Resume.pdf"
+                                className="text-white/30 hover:text-white transition-colors uppercase tracking-[0.2em] text-[9px] font-bold text-center pt-2"
+                            >
+                                [ Download Resume ]
                             </a>
                         </motion.div>
                     </div>
