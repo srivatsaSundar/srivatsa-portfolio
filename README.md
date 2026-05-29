@@ -1,6 +1,6 @@
 # Srivatsa Sundarraj | AI Engineer Portfolio
 
-An interactive, premium developer portfolio showcasing enterprise-scale Generative AI engineering, Agentic workflows, and machine learning solutions. 
+An interactive, premium developer portfolio showcasing enterprise-scale Generative AI engineering, Agentic workflows, and machine learning solutions. Live site: https://srivatsasundar.github.io/srivatsa-portfolio/ 
 
 This portfolio is built with a sleek, dark-theme aesthetic, incorporating smooth scroll micro-animations and a dynamic 3D interactive particle background.
 
