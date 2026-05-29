@@ -1,16 +1,86 @@
-# React + Vite
+# Srivatsa Sundarraj | AI Engineer Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An interactive, premium developer portfolio showcasing enterprise-scale Generative AI engineering, Agentic workflows, and machine learning solutions. 
 
-Currently, two official plugins are available:
+This portfolio is built with a sleek, dark-theme aesthetic, incorporating smooth scroll micro-animations and a dynamic 3D interactive particle background.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Tech Stack
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+- **Core**: React 18 & Vite
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **3D & Interactive Elements**: Three.js & React Three Fiber (`@react-three/fiber` & `@react-three/drei`)
+- **Icons**: Lucide React
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Getting Started
+
+Follow these steps to run the portfolio website locally on your machine.
+
+### Prerequisites
+
+Make sure you have **Node.js** (v18.x or higher) installed on your system. You can verify this by running:
+```bash
+node -v
+```
+
+### Installation
+
+1. Clone or navigate into the portfolio directory:
+   ```bash
+   cd srivatsa-portfolio
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+### Running Locally (Development Mode)
+
+Start the local development server with Hot Module Replacement (HMR):
+```bash
+npm run dev
+```
+Once started, open [http://localhost:5173](http://localhost:5173) in your browser to view the portfolio.
+
+### Building for Production
+
+To build the application for deployment (compiles and minifies assets to the `dist/` directory):
+```bash
+npm run build
+```
+
+### Previewing the Production Build
+
+To preview the production build locally to verify all assets load correctly:
+```bash
+npm run preview
+```
+
+---
+
+## 📂 Project Structure
+
+```text
+srivatsa-portfolio/
+├── public/                 # Static assets (Favicons, OG Image)
+├── src/
+│   ├── assets/             # Images and design assets
+│   ├── components/         # Modular portfolio sections
+│   │   ├── About.jsx       # Biography & enterprise stats
+│   │   ├── Contact.jsx     # Executable message query payload form & footer
+│   │   ├── Experience.jsx  # Detailed career trajectory (Intern -> GET -> Junior Engineer)
+│   │   ├── Hero.jsx        # 3D Torus particle background, title & core summary
+│   │   ├── Projects.jsx    # Showcase grid of enterprise & academic work
+│   │   └── Skills.jsx      # Advanced skill groups (Gen AI, Cloud/MLOps, ML, Databases)
+│   ├── App.jsx             # Main layouts and Suspense wrapper
+│   ├── index.css           # Styling tokens and Tailwind integration
+│   └── main.jsx            # Entry point
+├── index.html              # HTML shell & SEO meta-tags
+├── tailwind.config.js      # Styling design systems
+└── vite.config.js          # Vite configurations
+```
