@@ -63,6 +63,18 @@ npm run preview
 
 ---
 
+## 🚀 Updating the Live Site
+
+When you make changes to the source, run:
+
+```bash
+npm run build   # Build production assets
+npm run deploy   # Push to gh-pages
+```
+
+This will rebuild the `dist/` folder and publish the updated site to GitHub Pages.
+
+
 ## 📂 Project Structure
 
 ```text
