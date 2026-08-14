@@ -4,20 +4,28 @@ import { BrainCircuit, Cpu, Layers, Database, Code2, Globe } from 'lucide-react'
 
 const skillGroups = [
     {
-        title: "AGENTIC & GEN AI",
-        skills: ["LangGraph", "LangChain", "LlamaIndex", "MCP (Model Context Protocol)", "Microsoft Agent Framework", "AutoGen", "Multi-Agent Systems", "Agentic RAG"]
+        title: "GENERATIVE AI & AGENTIC",
+        skills: ["LLMs", "RAG", "Agentic AI", "Multi-Agent Systems", "LangChain", "LangGraph", "LlamaIndex", "MCP", "Microsoft Agent Framework", "AutoGen", "A2A Protocol", "Prompt Engineering", "LiteLLM", "OpenAI APIs", "Llama", "Semantic Retrieval", "Workflow Orchestration"]
+    },
+    {
+        title: "ML, NLP & VISION",
+        skills: ["Machine Learning", "Deep Learning", "NLP", "SpaCy", "OCR", "OpenCV"]
     },
     {
         title: "CLOUD, DEVOPS & MLOPS",
-        skills: ["Azure AI Foundry", "Azure ML Studio", "Azure AI Search", "Kubernetes & Docker", "Azure Functions & Logic Apps", "Power Automate", "Git & Azure DevOps", "MLflow & App Insights"]
+        skills: ["Azure AI Services", "Azure AI Search", "Azure AI Foundry", "Azure ML Studio", "Azure DevOps", "Azure Functions", "App Services", "Logic Apps", "Virtual Machines", "Kubernetes", "Docker", "Jenkins", "Power Automate"]
     },
     {
-        title: "ML, VISION & BACKEND",
-        skills: ["Machine Learning", "Deep Learning", "NLP & SpaCy", "OCR & OpenCV", "Python & FastAPI", "Pydantic & REST APIs", "Django & Flask", "Streamlit"]
+        title: "BACKEND & APP DEV",
+        skills: ["Python", "FastAPI", "Pydantic", "Django", "Flask", "Streamlit", "REST APIs", "HTML", "CSS"]
     },
     {
         title: "DATABASES & VECTORS",
-        skills: ["FAISS Vector DB", "Neo4j Graph DB", "MySQL", "SQLite", "Direct Lake (Fabric)", "Data Lakehouse", "SQL Pipelines", "Document Ingestion"]
+        skills: ["FAISS Vector DB", "MongoDB", "Neo4j Graph DB", "MySQL", "SQLite"]
+    },
+    {
+        title: "OBSERVABILITY & VCS",
+        skills: ["Langfuse", "Application Insights", "Git"]
     }
 ]
 
@@ -34,7 +42,7 @@ const Skills = () => {
                     </p>
                 </div>
 
-                <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-12">
                     {skillGroups.map((group, index) => (
                         <motion.div
                             key={index}

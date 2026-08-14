@@ -30,7 +30,7 @@ const About = () => {
                                 My trajectory at <strong>Johnson Electric</strong> represents a rapid professional evolution—climbing the ranks from an <strong>AI Intern</strong> to a <strong>Graduate Engineer Trainee</strong>, and finally to my current impact as a <strong>Junior Engineer – AI</strong>.
                             </p>
                             <p>
-                                With a background in Artificial Intelligence and Data Science (8.4 CGPA), I bridge the gap between academic theory and enterprise-scale implementation.
+                                With a B.Tech in Artificial Intelligence and Data Science (GPA: 8.4/10.0) from KPR Institute of Engineering and Technology, I bridge the gap between academic theory and enterprise-scale implementation.
                                 Within the enterprise Innovation Lab, I lead end-to-end AI solution architecture, implementation planning, deployment, testing, and optimization.
                             </p>
                         </div>
@@ -45,19 +45,19 @@ const About = () => {
                     >
                         <div className="aspect-[4/5] glass rounded-none flex flex-col items-center justify-center p-8">
                             <span className="text-4xl font-bold text-white mb-2 italic">8.4</span>
-                            <span className="text-white/20 uppercase tracking-widest text-[8px] text-center">Academic CGPA</span>
+                            <span className="text-white/20 uppercase tracking-widest text-[8px] text-center">Academic GPA</span>
                         </div>
                         <div className="aspect-[4/5] glass rounded-none flex flex-col items-center justify-center p-8 translate-y-12">
-                            <span className="text-4xl font-bold text-white mb-2 italic">2 Yrs</span>
-                            <span className="text-white/20 uppercase tracking-widest text-[8px] text-center">Enterprise AI Exp</span>
+                            <span className="text-4xl font-bold text-white mb-2 italic">2+</span>
+                            <span className="text-white/20 uppercase tracking-widest text-[8px] text-center">Years Enterprise AI</span>
                         </div>
                         <div className="aspect-[4/5] glass rounded-none flex flex-col items-center justify-center p-8">
                             <span className="text-4xl font-bold text-white mb-2 italic">Agentic AI</span>
                             <span className="text-white/20 uppercase tracking-widest text-[8px] text-center">Specialization</span>
                         </div>
                         <div className="aspect-[4/5] glass rounded-none flex flex-col items-center justify-center p-8 translate-y-12">
-                            <span className="text-4xl font-bold text-white mb-2 italic">2x</span>
-                            <span className="text-white/20 uppercase tracking-widest text-[8px] text-center">AI Trailblazer Award</span>
+                            <span className="text-4xl font-bold text-white mb-2 italic">5x</span>
+                            <span className="text-white/20 uppercase tracking-widest text-[8px] text-center">Enterprise Awards</span>
                         </div>
                     </motion.div>
                 </div>

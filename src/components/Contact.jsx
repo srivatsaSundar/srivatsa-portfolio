@@ -49,7 +49,7 @@ const Contact = () => {
                             Download the comprehensive, print-ready PDF resume documenting all my enterprise projects, technical skills, and academic achievements.
                         </p>
                         <a 
-                            href="/Srivatsa_Sundarraj_Resume.pdf" 
+                            href={`${import.meta.env.BASE_URL}Srivatsa_Sundarraj_Resume.pdf`}
                             download="Srivatsa_Sundarraj_Resume.pdf"
                             className="px-10 py-5 bg-white text-black font-bold uppercase text-[10px] tracking-[0.3em] rounded-none hover:bg-neutral-200 transition-all active:scale-95 inline-flex items-center gap-4"
                         >

@@ -126,7 +126,7 @@ const Hero = () => {
                         >
                             <h2 className="text-2xl font-medium text-white mb-4">Srivatsa Sundarraj</h2>
                             <p className="text-white/50 leading-relaxed text-sm md:text-base">
-                                AI Engineer with nearly 2 years of experience building enterprise-scale Generative AI systems and intelligent automation platforms at Johnson Electric. Specializing in Agentic AI, RAG architectures, and multi-agent systems.
+                                AI Engineer with 2+ years of experience designing and deploying enterprise-scale Generative AI and Agentic AI systems. Specializing in LLM applications, RAG, multi-agent orchestration, MCP, LangChain, LangGraph, and Azure AI at Johnson Electric.
                             </p>
                         </motion.div>
 
@@ -143,7 +143,7 @@ const Hero = () => {
                                 Get in Touch
                             </a>
                             <a 
-                                href="/Srivatsa_Sundarraj_Resume.pdf" 
+                                href={`${import.meta.env.BASE_URL}Srivatsa_Sundarraj_Resume.pdf`}
                                 download="Srivatsa_Sundarraj_Resume.pdf"
                                 className="text-white/30 hover:text-white transition-colors uppercase tracking-[0.2em] text-[9px] font-bold text-center pt-2"
                             >
@@ -162,7 +162,7 @@ const Hero = () => {
                     </div>
                     <div className="flex flex-col gap-1 items-end">
                         <span className="text-white/20 text-[10px] uppercase tracking-widest">Status</span>
-                        <span className="text-white text-xs">Junior AI Engineer</span>
+                        <span className="text-white text-xs">Junior Engineer – AI</span>
                     </div>
                 </div>
             </div>

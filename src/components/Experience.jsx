@@ -3,54 +3,53 @@ import { motion } from 'framer-motion'
 
 const experiences = [
     {
-        title: "Junior Engineer – AI",
+        title: "Junior Engineer \u2013 AI",
         company: "Johnson Electric",
-        period: "Nov 2025 – Present",
-        description: "Lead end-to-end AI solution architecture, implementation planning, deployment, testing, and optimization initiatives within the enterprise Innovation Lab. Collaborate with global stakeholders to deliver production-grade enterprise AI MVPs and automation systems.",
-        metrics: "Fabric Agent / LangGraph Research / Email Automation",
+        period: "Nov 2025 \u2013 Present",
+        description: "Lead end-to-end AI solution architecture, implementation planning, deployment, testing, and optimization within the enterprise Innovation Lab.",
+        metrics: "80% Email Triage Cut / Multi-Agent MCP / Docker & K8s CI/CD",
         achievements: [
-            "Built a Microsoft Fabric enterprise intelligence agent leveraging Direct Lake connectivity and custom API integrations for real-time querying of lakehouse datasets.",
-            "Developed a LangGraph-based autonomous research agent for web scraping, technical specification extraction, and catalog comparison.",
-            "Designed and deployed an intelligent sales email automation and routing system using Power Automate and custom LLM APIs.",
-            "Architected and delivered key projects in the Innovation Lab, driving AI innovation and leading cross-functional stakeholder management."
+            "Architected and deployed a LangChain-based Agentic AI workflow using Python, LLM APIs, and Power Automate to process 100\u2013200 daily sales team emails across sales, finance, HR, and billing contexts.",
+            "Replaced a fully manual, human-forwarded triage process with automated intent classification, auto-draft responses, and deterministic routing to the correct department and region-specific team.",
+            "Cut manual email triage by 80% and accelerated response times across departments.",
+            "Built a multi-agent system using the DeepAgent framework with skill-based sub-agents connecting to multiple MCP servers across enterprise systems to fetch real-time production data \u2014 stock availability, product specifications, and machine capacity.",
+            "Replaced a manual process where engineers spent 4\u20135 hours per request cross-checking systems, reducing lookup time to under a minute. Currently used by nearly 100 engineers.",
+            "Deployed and maintained production AI services using Docker, Kubernetes, and Jenkins CI/CD pipelines across cloud infrastructure."
         ]
     },
     {
-        title: "Graduate Engineer Trainee – AI",
+        title: "Graduate Engineer Trainee \u2013 AI",
         company: "Johnson Electric",
-        period: "Nov 2024 – Oct 2025",
-        description: "Architected and deployed production-grade Agentic RAG infrastructures, global enterprise policy assistants, and vision systems. Delivered business value through high-accuracy predictive and automated solutions.",
-        metrics: "Agentic RAG / 96% HR RAG / 98% CV Accuracy",
+        period: "Nov 2024 \u2013 Oct 2025",
+        description: "Architected and deployed production-grade Agentic RAG infrastructures and global enterprise policy assistants serving 10,000+ employees.",
+        metrics: "Agentic RAG / 96% HR Chatbot Accuracy / 10K+ Users",
         achievements: [
-            "Architected and deployed a production-grade Agentic RAG system using ReAct-based orchestration and MCP integrations.",
-            "Built and deployed a global HR policy chatbot using LangGraph and Azure AI Search, achieving 96% production accuracy.",
-            "Developed an autonomous customer support and escalation engine in Microsoft Copilot Studio handling 60–100 emails daily.",
-            "Built an OpenCV-based deep learning vision system to detect component misalignment on machinery with 98% accuracy.",
-            "Migrated enterprise material price forecasting workflows to Azure ML Studio, keeping 94% accuracy with improved stability.",
-            "Developed industrial machine manual discovery engines, executive summarization pipelines, and specialized IT compliance sub-agents."
+            "Architected and productionized an Agentic RAG system using ReAct-based orchestration and MCP integrations to dynamically retrieve information across multiple distributed vector databases \u2014 spanning HR, IT, and company-wide policies.",
+            "Integrated with ITPL to enable employees to fetch live ticket data and status alongside policy and procedural information.",
+            "Built and deployed a global HR policy chatbot using LangGraph and Azure AI Search, serving all 10,000+ employees across the enterprise.",
+            "Achieved 96% production accuracy, with 100\u2013200 employees using it every hour. Eliminated the need for employees to search through lengthy policy documents or wait on HR responses."
         ]
     },
     {
         title: "AI Intern",
         company: "Johnson Electric",
-        period: "June 2024 – Oct 2024",
-        description: "Built full-stack AI applications and conducted performance benchmarking for enterprise semantic search systems.",
-        metrics: "LlamaIndex SQL / RAG Benchmarking / Cloud-Native",
+        period: "June 2024 \u2013 Oct 2024",
+        description: "Built full-stack AI applications including a natural language-to-SQL interface for enterprise warehouse retrieval and analytics.",
+        metrics: "LlamaIndex SQL / Enterprise Analytics",
         achievements: [
-            "Built a LlamaIndex-powered natural language SQL database chatbot for warehouse retrieval and analytics.",
-            "Conducted benchmarking across vector databases to optimize semantic retrieval accuracy and inference latency.",
-            "Containerized and deployed enterprise warehouse applications using Django, Flask, Docker, and Kubernetes."
+            "Built a LlamaIndex-powered natural language-to-SQL interface for the internal data team, converting plain-language prompts into SQL queries for enterprise warehouse retrieval and analytics.",
+            "Enabled business users without SQL expertise to independently query thousands of warehouse records, removing dependency on the data team for routine data pulls."
         ]
     },
     {
         title: "Data Science Intern",
         company: "Marico Ltd",
-        period: "July 2023 – Jan 2024",
-        description: "Data Science internship focusing on supply chain analytics, behavioral tracking, and code repository intelligence.",
-        metrics: "Supply Chain ML / Metadata Automation",
+        period: "July 2023 \u2013 Jan 2024",
+        description: "Data Science internship focusing on supply chain analytics, behavioral tracking, and automated repository intelligence.",
+        metrics: "Supply Chain ML / 80% Audit Reduction",
         achievements: [
-            "Built machine learning models using Scikit-learn and Pandas to analyze supply chain behavior and purchasing trends.",
-            "Developed an NLP-driven metadata analysis pipeline to parse GitHub and Jira datasets, reducing auditing efforts."
+            "Built and evaluated machine learning models using Scikit-learn and Pandas to analyze supply chain behavior, purchasing trends, and distribution efficiency for business strategy optimization.",
+            "Implemented an NLP- and API-driven metadata analysis pipeline to process GitHub repositories and Jira datasets, reducing manual technical auditing effort by 80%."
         ]
     }
 ]

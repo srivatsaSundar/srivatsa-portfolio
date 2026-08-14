@@ -4,59 +4,45 @@ import { ExternalLink, Github, Code2, ArrowUpRight } from 'lucide-react'
 
 const projects = [
     {
-        title: "Microsoft Fabric Enterprise Agent",
-        category: "Fabric & Lakehouse",
-        description: "Built an enterprise intelligence agent leveraging Direct Lake connectivity and custom API integrations to enable secure real-time querying of lakehouse datasets.",
-        tags: ["Fabric", "Direct Lake", "API Integration", "Data Lakehouse"],
-        link: "#"
-    },
-    {
-        title: "Autonomous Material Discovery",
-        category: "Agentic AI",
-        description: "LangGraph-based autonomous research agent capable of web scraping, multi-format document ingestion, and automated comparison against catalogs.",
-        tags: ["LangGraph", "Web Scraping", "Data Ingestion", "Agentic Workflows"],
-        link: "#"
-    },
-    {
         title: "Automated Sales Email Orchestration",
-        category: "Enterprise Automation",
-        description: "Intelligent sales email automation system using Power Automate and custom LLM APIs to automate analysis, drafting, routing, and escalation.",
-        tags: ["Power Automate", "LLM APIs", "Workflow Automation", "Routing"],
+        category: "Agentic AI \u2014 Enterprise",
+        description: "LangChain-based Agentic AI workflow processing 100\u2013200 daily sales emails with automated intent classification, auto-draft responses, and deterministic routing. Cut manual email triage by 80%.",
+        tags: ["LangChain", "Power Automate", "LLM APIs", "Python"],
+        link: "#"
+    },
+    {
+        title: "Multi-Enterprise Production Stock Agent",
+        category: "Multi-Agent MCP",
+        description: "Multi-agent system using DeepAgent framework with skill-based sub-agents connecting to multiple MCP servers for real-time production data \u2014 stock, specs, and machine capacity. Used by ~100 engineers.",
+        tags: ["DeepAgent", "MCP", "Multi-Agent", "Real-Time Data"],
         link: "#"
     },
     {
         title: "Multi-Database Agentic RAG System",
         category: "Agentic RAG",
-        description: "Production-grade Agentic RAG system using ReAct-based orchestration and MCP integrations across distributed vector databases.",
-        tags: ["Agentic RAG", "ReAct", "MCP Integration", "Vector DB"],
+        description: "Production-grade Agentic RAG system using ReAct-based orchestration and MCP integrations to dynamically retrieve across distributed vector databases spanning HR, IT, and company-wide policies.",
+        tags: ["ReAct", "MCP", "Vector DB", "ITPL Integration"],
         link: "#"
     },
     {
         title: "Global Enterprise HR Chatbot",
-        category: "Global Rollout (96% Acc)",
-        description: "Global HR policy assistant built using LangGraph and Azure AI Search, achieving 96% production accuracy.",
+        category: "Global Rollout \u2014 96% Accuracy",
+        description: "Global HR policy chatbot using LangGraph and Azure AI Search, serving all 10,000+ employees with 96% production accuracy. 100\u2013200 employees using it every hour.",
         tags: ["LangGraph", "Azure AI Search", "RAG", "Production AI"],
         link: "#"
     },
     {
-        title: "Component Detection System",
-        category: "Computer Vision (98% Acc)",
-        description: "OpenCV-based deep learning vision system to detect component misalignment on machinery with Azure ML Studio pipelines.",
-        tags: ["OpenCV", "Deep Learning", "Computer Vision", "Azure ML"],
+        title: "Generative AI SQL Data Chatbot",
+        category: "Enterprise Analytics",
+        description: "LlamaIndex-powered natural language-to-SQL interface converting plain-language prompts into SQL queries for enterprise warehouse retrieval and analytics.",
+        tags: ["LlamaIndex", "NL-to-SQL", "Enterprise Data", "Analytics"],
         link: "#"
     },
     {
-        title: "Self Help Mental Health Companion",
-        category: "Personal Project",
-        description: "LLaMA-based chatbot application with automated chat session reporting to doctors and emergency SOS alerts.",
-        tags: ["LLaMA", "Prompt Engineering", "NLP", "Companionship"],
-        link: "#"
-    },
-    {
-        title: "Tweets Classification on Sexism",
-        category: "Academic Publication",
-        description: "Feminism tweets classification using various ML models for binary and multiclass classification, reaching 83% - 87% accuracy.",
-        tags: ["Machine Learning", "NLP", "Classification", "Research Paper"],
+        title: "Supply Chain & Behavioral Analytics",
+        category: "Data Science \u2014 Marico Ltd",
+        description: "Machine learning models using Scikit-learn and Pandas to analyze supply chain behavior, purchasing trends, and distribution efficiency. NLP-driven metadata pipeline reducing audit effort by 80%.",
+        tags: ["Scikit-learn", "Pandas", "NLP", "Supply Chain ML"],
         link: "#"
     }
 ]
